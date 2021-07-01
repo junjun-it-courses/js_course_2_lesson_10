@@ -3,5 +3,5 @@
 let arr = [123, 321, 213, 312, 23231];
 
 
-console.log( arr.unshift(1000, 1000, 1001, 10231) )
+console.log( arr.unshift('1asd', '2d', 1001, 10231) )
 console.log( arr )

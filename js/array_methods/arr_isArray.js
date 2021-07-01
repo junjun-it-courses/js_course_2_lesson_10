@@ -2,8 +2,8 @@
 // является ли элемент массивом
 
 
-console.log(typeof {}); // object
-console.log(typeof []); // тоже object
+// console.log(typeof {}); // object
+// console.log(typeof []); // тоже object
 
 // поэтому удобно использовать метод isArray для того чтобы
 // проверить является ли элемент массивом
@@ -14,7 +14,13 @@ const obj = {
     age: 142
 }
 
-console.log(Array.isArray(arr));
-console.log(Array.isArray(obj));
+console.log(
+    Array.isArray(arr)
+);
+
+
+console.log(
+    Array.isArray(obj)
+);
 
 console.log(arr)

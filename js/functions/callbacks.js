@@ -1,35 +1,39 @@
-const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-const arrNumbers2 = [31, 232, 312, 43, 54, 66];
+// function calcSum(a, b) {
+//     return a + b
+// }
+//
+// function calcDiv(a, b) {
+//     return a - b;
+// }
+//
+// function calcDel(a, b) {
+//     return a / b;
+// }
+
+// function getData(callback) {
+//     let num1 = 2;
+//     let num2 = 3;
+//     return callback(num1, num2);
+// }
+
+// let result1 = getData(calcSum);
+// let result2 = getData(calcDiv);
+// let result3 = getData(function (a, b) {
+//     return a ** b;
+// });
+// let result4 = getData(Math.pow);
+// let result5 = getData(Math.sqrt)
 
 
-
-function multiplay(arr, functionToCallBack = null) {
-    const resultArr = [];
-
-    for (let i = 0; i <= arr.length - 1; i++) {
-        let res = arr[i] * 10
-        resultArr.push(res);
-
-        if(functionToCallBack) {
-            functionToCallBack(res);
-        }
-
-    }
-
-    console.log(resultArr)
-
-}
+// let result4 = getData((a, b) => {
+//     return a * b
+// } );
+//
+// let result5 = getData(calcDel);
 
 
-function showInConsole (message) {
-    console.log('Current number ' + message);
-}
-
-multiplay(arrNumbers, showInConsole);
-
-
-function showMessage(message) {
-    alert('Current number ' + message);
-}
-
-multiplay(arrNumbers2, showMessage);
+// console.log(result1)
+// console.log(result2)
+// console.log(result3)
+// console.log(result4)
+console.log(result5)
